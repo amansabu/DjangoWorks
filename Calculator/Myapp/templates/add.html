@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form method="post">
+    {% csrf_token %}
+
+    <input type="text" name="n1" placeholder="Enter the first number"><br>
+    <input type="text" name="n2" placeholder="Enter the second number"><br>
+    <input type="submit">
+
+</form>
+sum is:{{result}}
+</body>
+</html>
